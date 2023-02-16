@@ -1,0 +1,21 @@
+# List files or directories below to ignore them when running force:source:push, force:source:pull, and force:source:status
+# More information: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_exclude_source.htm
+#
+
+customerdataplatform.settings
+einsteindealinsights.settings
+subscriptionmanagement.settings
+employeeuser.settings
+territory2.settings
+iot.settings
+platformencryption.settings
+encryptionkey.settings
+
+package.xml
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+**/__tests__/**

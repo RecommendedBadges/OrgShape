@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "RecommendedBadgesShape",
+  "namespace": "",
+  "replacements": [
+    {
+      "glob": "./",
+      "stringToReplace": "blearn5241@wise-impala-ijbwfx.com",
+      "replaceWithEnv": "TARGET_USERNAME"
+    }
+  ],
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "56.0"
+}
